@@ -6,7 +6,9 @@ namespace lesson7
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine("Введите ваше имя");
+            var name = Console.ReadLine();
+            Console.WriteLine($"Hello " + name);
         }
     }
 }
